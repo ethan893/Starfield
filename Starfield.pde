@@ -9,7 +9,7 @@ int [] M = new int[5];
 void spaceShip(int x, int y, int h) {
 noStroke();
 fill(50);
-circle(ball.x, ball.y, h/3);
+ellipse(ball.x, ball.y, h/3, h/3);
 ellipse(ball.x, ball.y+h/10, h/1.3, h/3.3);
 }
 ship ball = new ship();
