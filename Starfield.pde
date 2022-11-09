@@ -4,7 +4,7 @@ class ship {
   float dx;
   float dy;
 }
-int [] Xpos = {482, 126, 422, 294, 162};
+int [] Xpos = {482};
 int [] M = new int[5];
 void spaceShip(int x, int y, int h) {
 noStroke();
