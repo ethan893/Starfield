@@ -4,8 +4,8 @@ class ship {
   float dx;
   float dy;
 }
-int []Xpos = {482}
-int [] M = {5}
+int [] Xpos = {482}
+int [] M = new int[5];
 void spaceShip(int x, int y, int h) {
 noStroke();
 fill(50);
